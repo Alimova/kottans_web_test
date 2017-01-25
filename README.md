@@ -1,6 +1,6 @@
 # kottans_web_test
 1. task_0 - remote done, main partly done
-2. task_1:
+2. task_1:<br />
 Linux Command Line Basics - done<br />
 Configure Linux Servers - done<br />
 Networking for web development - done<br />

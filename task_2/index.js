@@ -23,7 +23,7 @@ function updateAnswer(node){
     //cut off letter from var answer
     var l = findRow(node);
     var length = answer.length;
-    answer = answer.slice(0, l-1)+answer.slice(l, length-1);
+    answer = answer.slice(0, l-1)+answer.slice(l, length);
 }
 
 console.log(xhr.response);

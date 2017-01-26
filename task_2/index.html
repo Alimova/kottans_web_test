@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Trivia Quiz</title>
@@ -59,13 +59,14 @@ function ReWrite(){
 
 }
     //SKIP button
-    Click('click');
-    Click('next');
+    Click('click'); //add handler
+    Click('next');  //add handler
     function Click(item){
+        //handler for NEXT QUESTION and SKIP button
         var something = document.getElementById(item);
         something.style.cursor = 'pointer';
         something.onclick = function() {
-            Reload();
+            Reload(); //get new JSON
             resp = JSON.parse(xhr.response);
             ReWrite();
         };
